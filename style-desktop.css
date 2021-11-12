@@ -1,53 +1,34 @@
 @media all and (min-width: 950px)
 {
-    *
-    {
-        /* margin:0; */
-        /* padding:0; */
-    }
     main
     {
         display: grid;
         grid-template-areas:
         'a a b c'
         'd e e c';
+
+        grid-auto-rows: 32vh;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+
         gap: 2em;
-        row-gap: 0;
-        width:80%;
-        height:80vh;
-        margin:0 auto;
+        row-gap: 2em;
+        width:75%;
+        height:auto;
+        margin:15vh auto 0 auto;
+    }
+
+    #section1,#section2,#section3,#section4,#section5
+    {
+        width:auto;
+        height: auto;
+        margin:0;
     }
     
-    #section1
-    {
-        grid-area: a;
-        width:auto;
-        height: auto;
-    }
-    #section2
-    {
-        grid-area: b;
-        width:auto;
-        height: 19em;
-    }
-    #section3
-    {
-        grid-area: d;
-        width:auto;
-        height: auto;
-    }
-    #section4
-    {
-        grid-area: e;
-        width:auto;
-        height: auto;
-    }
-    #section5
-    {
-        grid-area: c;
-        width:auto;
-        height: auto;
-    }
-
-
+    #section1{grid-area: a;}
+    #section2{grid-area: b;}
+    #section3{grid-area: d;}
+    #section4{grid-area: e;}
+    #section5{grid-area: c;}
+    
+    .attribution {position:absolute; bottom:0; text-align: center; width:90%;}
 }
