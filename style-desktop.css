@@ -1,0 +1,53 @@
+@media all and (min-width: 950px)
+{
+    *
+    {
+        /* margin:0; */
+        /* padding:0; */
+    }
+    main
+    {
+        display: grid;
+        grid-template-areas:
+        'a a b c'
+        'd e e c';
+        gap: 2em;
+        row-gap: 0;
+        width:80%;
+        height:80vh;
+        margin:0 auto;
+    }
+    
+    #section1
+    {
+        grid-area: a;
+        width:auto;
+        height: auto;
+    }
+    #section2
+    {
+        grid-area: b;
+        width:auto;
+        height: 19em;
+    }
+    #section3
+    {
+        grid-area: d;
+        width:auto;
+        height: auto;
+    }
+    #section4
+    {
+        grid-area: e;
+        width:auto;
+        height: auto;
+    }
+    #section5
+    {
+        grid-area: c;
+        width:auto;
+        height: auto;
+    }
+
+
+}

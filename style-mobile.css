@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed&display=swap');
+
+body
+{
+    background-color:  hsl(210, 46%, 95%);
+    font-family: "Barlow Semi Condensed";
+    font-size: 13px;
+}
+section
+{
+    width: 75%;
+    margin: 0 auto 2em auto;
+    padding: 2em;    
+    border-radius: 0.5em;
+}
+#section1
+{
+    margin-top: 5em;
+    color: white;
+    background: hsl(263, 55%, 52%) url("images/bg-pattern-quotation.svg") no-repeat right 2em top;
+}
+#section2
+{
+    background-color: hsl(217, 19%, 35%);
+    color: white;
+}
+#section3
+{
+    background-color: white;
+    
+}
+#section4
+{
+    background-color: hsl(219, 29%, 14%);
+    color:white;
+}
+#section5
+{
+    margin-bottom: 5em;
+    background-color: white;
+}
+.author-container
+{
+    display: flex;    
+    align-items: center;
+}
+.profile-pp
+{
+    border-radius:50%;
+    border: 2px solid rgb(184, 184, 184);
+    width:3em;
+    margin-right: 1.5em;
+}
+.author-name
+{
+    font-weight: 700;
+}
+
+.light-grey-text
+{
+    color:rgb(139, 139, 139);
+}
+.grey-text
+{
+    color:rgb(97, 97, 97);
+}
+.dark-grey-text
+{
+    color:rgb(75, 75, 75);
+}
+.white-text
+{
+    color:white;
+}
+.soft-dark-white-text
+{
+    color:rgb(199, 199, 199);
+}
+.dark-white-text
+{
+    color:rgb(173, 173, 173);
+}
